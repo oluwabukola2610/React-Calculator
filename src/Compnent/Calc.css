@@ -10,6 +10,7 @@ background-image: linear-gradient(to bottom, #434343 0%, black 100%);  height: 1
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .Calc {
   border: 1px solid black;
@@ -45,7 +46,7 @@ background-image: linear-gradient(to bottom, #434343 0%, black 100%);  height: 1
 .display-calc > .output{
     font-size: 25px;
     font-weight: 400;
-    color: fuchsia;
+    color:  rgb(237, 128, 237);
     word-wrap: break-word;
 }
 button{
@@ -68,6 +69,6 @@ button{
 
 }
 .operator{
-    color: fuchsia;
-    background-color: gold;
+    color: rgb(242, 139, 242);
+    background-color: rgb(246, 238, 191);
 }
